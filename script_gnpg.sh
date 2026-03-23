@@ -12,3 +12,7 @@ a otra computadora
 
 gpg --list-keys
 lista todas las llaves publicas
+
+gpg --import llave_publica_Israel.asc 
+
+echo "este mensaje es secreto" > doc_no_cifrado.txt 
