@@ -8,3 +8,4 @@ gpg --import llave_publica_henry.asc
 gpg --list-keys 
 echo (" Mensaje secreto") > doc_no_cifrado.txt 
 gpg --encrypt --recipient chineado12@gmail.com doc_no_cifrado.txt
+gpg --decrypt "doc_cifrado (1).txt"
