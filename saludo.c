@@ -14,3 +14,5 @@ int main() {
 //proc (system file)
 // cd(change directory)
 //ls -F (lee la tabla de forma sencuencial sin gastar memoria en procesar el orden)
+//ls -i (run indone)
+// cat (Is for read and look very fast)
