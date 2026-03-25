@@ -12,3 +12,7 @@ gpg --decrypt "doc_cifrado (1).txt"
 gpg --local-user 7F946AAB2BE9B927 --clearsign doc_no_cifrado.txt
 gpg --local-user 7F946AAB2BE9B927 --sign doc_no_cifrado.txt
 gpg --local-user 7F946AAB2BE9B927 --detach-sign doc_no_cifrado.txt
+
+gpg --verify firma_henry.asc
+gpg --verify firma_henry.gpg
+gpg --verify firma_henry.sig doc_cifrado.txt
