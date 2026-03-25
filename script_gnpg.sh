@@ -17,3 +17,4 @@ gpg --verify firma_henry.asc
 gpg --verify firma_henry.gpg
 gpg --verify firma_henry.sig doc_cifrado.txt
 gpg --edit-key chineado12@gmail.com
+gpg --local-user 7F946AAB2BE9B927 --sign-key F1D8C7A0C8302819
