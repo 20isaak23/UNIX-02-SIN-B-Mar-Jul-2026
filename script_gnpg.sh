@@ -17,4 +17,5 @@ gpg --verify firma_henry.asc
 gpg --verify firma_henry.gpg
 gpg --verify firma_henry.sig doc_cifrado.txt
 gpg --edit-key chineado12@gmail.com
-gpg --local-user 7F946AAB2BE9B927 --sign-key F1D8C7A0C8302819
+gpg --local-user 7F946AAB2BE9B927 --sign-key 82B292987F6AD054B6435BD4B0E4743042965E13
+#Here I used mi key ID for sign and used the ID of my companion 
