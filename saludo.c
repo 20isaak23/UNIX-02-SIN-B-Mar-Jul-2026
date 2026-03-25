@@ -8,3 +8,5 @@ int main() {
 }
 /*Aqui hay varios comandos: Include: Carga las funciones basicas*/
 
+pwi 
+/*print working directory: Imprime el directorio que estoy trabajando*/
