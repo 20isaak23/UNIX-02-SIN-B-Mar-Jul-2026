@@ -16,3 +16,7 @@ int main() {
 //ls -F (lee la tabla de forma sencuencial sin gastar memoria en procesar el orden)
 //ls -i (run indone)
 // cat (Is for read and look very fast)
+// echo "hola" > test.txt (Create a new archive)
+// stat test.txt (Used to display the detailed status of a file)
+//saludo_bin (create saludo in bien
+// type (serves to identify the nature of a command)
