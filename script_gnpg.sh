@@ -21,3 +21,5 @@ gpg --local-user 7F946AAB2BE9B927 --sign-key 82B292987F6AD054B6435BD4B0E47430429
 #Here I used mi key ID for sign and used the ID of my companion 
 gpg --decrypt mensaje_seguro.gpg > resultado_final.txt
 #Decryp comand of henry 
+cat resultado_final.txt
+#Show the message of henry 
