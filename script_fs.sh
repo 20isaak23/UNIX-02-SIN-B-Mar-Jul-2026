@@ -5,3 +5,5 @@ sudo apt install parted #dowload and install parted
 sudo parted -l && echo -e "ln---\n" && lsblk -f && echo -e #
 #If the first part (mean since -l until &&) is true, follow
 # to next comand
+[ .d/sys/firmware/efi ] && echo "UEFI" || echo "BIOS" 
+#Show "UEFI" or "BIOS" depend of your virtual machine 
