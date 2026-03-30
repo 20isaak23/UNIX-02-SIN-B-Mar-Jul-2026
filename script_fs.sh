@@ -7,3 +7,8 @@ sudo parted -l && echo -e "ln---\n" && lsblk -f && echo -e #
 # to next comand
 [ .d/sys/firmware/efi ] && echo "UEFI" || echo "BIOS" 
 #Show "UEFI" or "BIOS" depend of your virtual machine 
+echo "esto es un archivo" >archivo.txt
+#Create a new file "archivo.txt"
+stat archivo.txt
+#Show the information about the file archivo.txt like:
+#(Size, Blocks, ID)
