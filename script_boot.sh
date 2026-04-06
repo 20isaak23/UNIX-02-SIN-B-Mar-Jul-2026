@@ -12,4 +12,9 @@ total 12
  ➜ ~/proyecto $ stat . -> If I have Device 0 its means that 
  my computer dont have Sould disc, summary show the metadata 
  dataill the actual directory 
+ mkdir -p /tmp/prueba/sub1/tmp/prueba/sub2 stat/tmp/prueba
+ -> The first command confirms the existence of the path, 
+ The first command confirms the existence of the path, 
+ and the second command validates its security and status properties.
+ man mkdir -> Its a manual for see all the information 
  
