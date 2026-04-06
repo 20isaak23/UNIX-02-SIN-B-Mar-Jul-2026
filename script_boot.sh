@@ -16,5 +16,25 @@ total 12
  -> The first command confirms the existence of the path, 
  The first command confirms the existence of the path, 
  and the second command validates its security and status properties.
- man mkdir -> Its a manual for see all the information 
- 
+ man mkdir -> Its a manual for soport us, have the information of mkdir 
+ pwd -> Where I am?
+ Whoami -> Who I am?
+
+ #ls 
+ ls -> List the files or file
+ ls -l -> Show all the infomation in columns
+ ls -la -> List all the hide files 
+ ls -lh -> List the file Displays 
+ a detailed list of files, 
+ translating the size in bytes into understandable units.
+ ls -lt-> List with the time 
+ ls / -> list the FHS 
+
+ # Head 20
+ ls /etc | head -20 -> List the contents of the system 
+ configuration folder, showing only the first 20 items.
+ ls /dev | head -20 -> Displays hardware device files
+ show the first 20 lines 
+ ls -la -> It performs a detailed listing that includes hidden 
+ files (those that begin with a dot) and shows permissions, 
+ owners, and sizes of the entire directory.
