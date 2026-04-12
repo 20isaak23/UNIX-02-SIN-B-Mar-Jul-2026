@@ -75,3 +75,21 @@ sudo find . | cpio -o -H newc > ../init.cpio
 cd ..
 # You package all the files in the current directory into a special format 
 # (cpio) that the Linux kernel can read during boot.
+
+#Part 6 
+sudo su -> #Switch to root for the following steps
+
+dd if=/dev/zero of=boot bs=1M count=50 -> #Create an empty 50 MB file that will 
+#serve as a virtual disk
+
+mkfs -t fat boot -> #Create a FAT filesystem in that file
+
+syslinux boot -> #Install the Syslinux bootloader on the image
+
+mkdir m
+mount boot m
+cp bzImage init.cpio m
+umount m
+-> #Monta la imagen y copia el kernel y el initramfs:
+
+
