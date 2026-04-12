@@ -39,8 +39,17 @@ cd $HOME: change the driectory personal, we use the variable entorn
  #files (those that begin with a dot) and shows permissions, 
  #owners, and sizes of the entire directory.
 
-#git clone --depth 1 https://git.busybox.net/busybox
-#cd busybox -> It contains all the basic Unix utilities (ls, grep, vi, etc.) in a single executable.
+#Part 4: Compile Busy Box
 
+git clone --depth 1 https://git.busybox.net/busybox
+cd busybox -> #It contains all the basic Unix utilities (ls, grep, vi, etc.) in a single executable.
+# Note: Cloning BusyBox takes you to a new repository.
 
+# It's important to remember to return to the main directory (cd ..)
+# to continue working on your custom branch.
+
+make menuconfig -> # We launch the menu to define BusyBox as a static binary
+# This avoids dependencies on external libraries in our minimal distro
+
+make -j 2 -> #We compiled using 2 cores to speed up the process
 
