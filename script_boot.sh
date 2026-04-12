@@ -53,3 +53,25 @@ make menuconfig -> # We launch the menu to define BusyBox as a static binary
 
 make -j 2 -> #We compiled using 2 cores to speed up the process
 
+# Install in the directory of initramfs
+
+sudo mkdir /boot-files/initramfs
+sudo make CONFIG_PREFIX=/boot-files/initramfs install
+
+# Part 5: Create the initramfs
+
+cd /boot-files/initramfs -> # We enter the directory where the initial file system files are located.
+
+sudo vi init # Create the main startup script. The content #!/bin/sh followed by /bin/sh 
+# tells the system: "as soon as you load, launch a command prompt."
+
+#!/bin/sh # You create the main startup script. The content #!/bin/sh followed by /bin/sh 
+/bin/sh #tells the system: "as soon as you load, launch a command console."
+
+sudo rm linuxrc #Remove the old startup executable (used in very old versions of Linux) to avoid conflicts.
+sudo chmod +x init #You give the new script execution permissions so that the kernel can run it.
+
+sudo find . | cpio -o -H newc > ../init.cpio
+cd ..
+# You package all the files in the current directory into a special format 
+# (cpio) that the Linux kernel can read during boot.
