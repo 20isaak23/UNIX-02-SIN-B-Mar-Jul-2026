@@ -13,3 +13,9 @@ ls -lah
 #Part3 
 mkdir -- -rf #Create a file call -rf
 rmdir -- -rf #Delete the file -rf
+
+#Part4
+ls --help # Quick summary, fits on one screen
+man ls # Full Manual 
+man git-clone # Show a manual of git
+--depth # To show the last commit 
