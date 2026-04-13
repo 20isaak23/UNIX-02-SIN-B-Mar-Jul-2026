@@ -19,3 +19,9 @@ ls --help # Quick summary, fits on one screen
 man ls # Full Manual 
 man git-clone # Show a manual of git
 --depth # To show the last commit 
+
+#Part5
+chmod +x script.sh #all users can execute (Is equall to a+x)
+chmod u+x script.sh #Only the owner can execute
+chmod o-r script.sh #remove the lecture
+chmod u+rw,go-rwx script.sh #Only the owner can execute 
