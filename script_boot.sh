@@ -92,4 +92,12 @@ cp bzImage init.cpio m
 umount m
 -> #Monta la imagen y copia el kernel y el initramfs:
 
+#Part 7: Try using Qemu
+
+qemu-system-x86_64 -nographic -append "console=ttyS0" \
+ -kernel bzImage -initrd init.cpio -drive file=boot,format=raw -> #This command passes the kernel 
+ # and initramfs directly to QEMU instead of booting from Syslinux.
+
+
+
 
