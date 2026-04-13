@@ -9,3 +9,7 @@ ls -lah
 #The result is the same, the diference is: If you want save
 #script, write the command large if you want make to do fast, 
 #write the comand short. the result is the same in the three
+
+#Part3 
+mkdir -- -rf #Create a file call -rf
+rmdir -- -rf #Delete the file -rf
