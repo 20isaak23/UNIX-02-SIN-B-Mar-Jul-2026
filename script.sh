@@ -38,4 +38,11 @@ echo "hola" | sudo tee /etc/archivo_protegido>/dev/null
 #is with high level permits 
 echo "hola" | sudo tee /etc/archivo_protegido
 # This command y almost similar with the first command but don´t execute priviligetes with root
-Cat # Is for confirm
+Cat /etc/archivo_protegido # Is for confirm
+
+#Part c
+sudo sh -c 'echo "chao" >> /etc/archivo_protegido'
+# It is an instruction that uses root privileges to append the text "chao" to the end 
+#of a protected system file without failing write permissions.
+cat /etc/archivo_protegido
+# Is for verificate
