@@ -4,3 +4,5 @@ echo 'echo "Hola desde mi primer script"' >> hola.sh #Add the text printing inst
 #to the end of the hola.sh file without deleting the previous content
 ls -l hola.sh # Displays detailed information about the hola.sh file, 
 #including its permissions, owner, size, and modification date
+./hola.sh # Run the script from the current directory so that the interpreter processes 
+#the saved commands and displays the message in the terminal.
