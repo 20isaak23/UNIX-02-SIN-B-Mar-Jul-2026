@@ -27,7 +27,15 @@ chmod o-r script.sh #remove the lecture
 chmod u+rw,go-rwx script.sh #Only the owner can execute 
 
 #Sudo: Superuser
-#1
+#Part A
 #Does works or not?
 sudo echo "hola" > /etc/archivo_protegido #No, doesn´t works because it need other sudo for 
 #the second part (/etc/archivo_protegido)
+
+#Part B
+echo "hola" | sudo tee /etc/archivo_protegido>/dev/null
+# This command execute with privileges of root, for that the scripture in the protected file
+#is with high level permits 
+echo "hola" | sudo tee /etc/archivo_protegido
+# This command y almost similar with the first command but don´t execute priviligetes with root
+Cat # Is for confirm
