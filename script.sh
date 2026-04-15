@@ -55,3 +55,4 @@ exit # It´s for leave of root
 #Part e
 echo "$HOME" # Expand he variable
 echo '$HOME' #Print $HOME like string
+
