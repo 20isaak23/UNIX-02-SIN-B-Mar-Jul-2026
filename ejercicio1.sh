@@ -13,3 +13,5 @@ ls /etc #List the system configuration files
 touch /etc/prueba.txt # Try creating an empty file called test.txt inside the system configuration folder
 #But this need a sudo because /etc is root
 mkdir ~/mi_carpeta # Crea un nuevo directorio llamado mi_carpeta dentro de tu carpeta personal de usuario (home).
+apt install cowsay # Install the cowsay but need sudo, before we execute sudo apt update for
+#and later we use "sudo apt install cowsay"
