@@ -10,3 +10,5 @@ ls -l hola.sh # Displays detailed information about the hola.sh file,
 
  Part 2
 ls /etc #List the system configuration files
+touch /etc/prueba.txt # Try creating an empty file called test.txt inside the system configuration folder
+#But this need a sudo because /etc is root
