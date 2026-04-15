@@ -25,3 +25,9 @@ chmod +x script.sh #all users can execute (Is equall to a+x)
 chmod u+x script.sh #Only the owner can execute
 chmod o-r script.sh #remove the lecture
 chmod u+rw,go-rwx script.sh #Only the owner can execute 
+
+#Sudo: Superuser
+#1
+#Does works or not?
+sudo echo "hola" > /etc/archivo_protegido #No, doesn´t works because it need other sudo for 
+#the second part (/etc/archivo_protegido)
