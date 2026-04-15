@@ -51,3 +51,7 @@ cat /etc/archivo_protegido
 #There ara full sudos, this is only one
 sudo su - #It works to log us in as root
 exit # It´s for leave of root
+
+#Part e
+echo "$HOME" # Expand he variable
+echo '$HOME' #Print $HOME like string
