@@ -6,3 +6,7 @@ ls -l hola.sh # Displays detailed information about the hola.sh file,
 #including its permissions, owner, size, and modification date
 ./hola.sh # Run the script from the current directory so that the interpreter processes 
 #the saved commands and displays the message in the terminal.
+ solution # We use chmod x hola.sh for give permitions 
+
+ Part 2
+ls /etc #List the system configuration files
