@@ -46,3 +46,8 @@ sudo sh -c 'echo "chao" >> /etc/archivo_protegido'
 #of a protected system file without failing write permissions.
 cat /etc/archivo_protegido
 # Is for verificate
+
+#Part d
+#There ara full sudos, this is only one
+sudo su - #It works to log us in as root
+exit # It´s for leave of root
