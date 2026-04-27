@@ -23,3 +23,6 @@ gpg --decrypt mensaje_seguro.gpg > resultado_final.txt
 #Decryp comand of henry 
 cat resultado_final.txt
 #Show the message of henry 
+$ umask 
+#default mask
+0022
