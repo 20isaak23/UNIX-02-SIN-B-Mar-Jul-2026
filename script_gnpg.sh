@@ -34,4 +34,16 @@ mkdir directorio2
 ls -l
 # We see the default mask of 027, later we create a file empty
 # next created a directory and verificate 
+
 #Part 3
+sudo apt-get update 
+sudo apt-get install acl
+sudo chown -R $(whoami) .
+sudo setfacl -bnR .
+# This code is beacuse don´t works the back code
+umask 077
+touch secreto2.txt
+mkdir secreto2 
+ls -l
+#We write this code for that we have the permiss more privade
+
