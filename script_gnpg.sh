@@ -82,3 +82,12 @@ sudo newgrp grupo_test
 sudo chown luna:grupo_test mi_archivo
 ls -l mi_archivo
 #Cahnge propietary and group in the same time, we use chown 
+
+#Part 7
+mkdir -p proyecto/sub
+touch proyecto/readme proyecto/sub/datos
+sudo chown -R luna:grupo_test proyecto
+ls -lR proyecto
+# Create the project/sub folder structure with its files, 
+# recursively change the owner and group to luna throughout 
+# the tree, and verify the final permissions.
