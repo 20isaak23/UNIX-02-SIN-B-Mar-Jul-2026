@@ -26,3 +26,12 @@ cat resultado_final.txt
 $ umask 
 #default mask
 0022
+
+#Part 2
+$ umask 027
+$ touch archivo2
+mkdir directorio2
+ls -l
+# We see the default mask of 027, later we create a file empty
+# next created a directory and verificate 
+#Part 3
