@@ -65,3 +65,15 @@ sudo chown luna mi_archivo
 ls -l mi_archivo 
 #Create the user luna with its own folder and zsh terminal, 
 #give it ownership of my_file and verify the change
+
+#Part 5
+sudo usermod -a -G grupo_test luna
+chgrp grupo_test comun
+touch comun
+sudo chgrp grupo_test comun
+ls -l comun
+#Add luna to the group group_test, create the common file and 
+#assign it to that group, finally verifying the change of ownership.
+
+newgrp
+sudo newgrp grupo_test
