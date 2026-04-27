@@ -47,3 +47,21 @@ mkdir secreto2
 ls -l
 #We write this code for that we have the permiss more privade
 
+#Part 4
+chown # Change the propiertary
+chgrp # change the group 
+
+umask 022
+whoami 
+echo "Hola" > mi_archivo
+ls -l mi_archivo
+# Configure default permissions so others can only read, 
+# show that you are the current user, and create a file with the text "Hello" 
+# to verify your details.
+
+useradd -m -s /usr/bin/zsh luna
+sudo useradd -m -s /usr/bin/zsh luna
+sudo chown luna mi_archivo
+ls -l mi_archivo 
+#Create the user luna with its own folder and zsh terminal, 
+#give it ownership of my_file and verify the change
