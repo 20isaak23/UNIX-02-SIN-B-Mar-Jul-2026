@@ -77,3 +77,8 @@ ls -l comun
 
 newgrp
 sudo newgrp grupo_test
+
+#Part 6
+sudo chown luna:grupo_test mi_archivo
+ls -l mi_archivo
+#Cahnge propietary and group in the same time, we use chown 
