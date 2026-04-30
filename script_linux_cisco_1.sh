@@ -131,3 +131,12 @@ cp /etc/passwd .
 
 #Later we checked with ls
 ls
+
+#Part14
+#The dd command is used to copy files or entire partitions at the bit level.
+dd
+#The "Input File". /dev/zero is a special file in Linux that generates zeros infinitely.
+#The "Output File". This is where the data will be saved, creating a file called swapex in the temporary folder.
+#"Block Size". Defines that each block of data is 1 Megabyte.
+#It indicates that you should copy 50 blocks.
+dd if=/dev/zero of=/tmp/swapex bs=1M count=50
