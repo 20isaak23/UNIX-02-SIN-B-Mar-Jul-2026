@@ -72,8 +72,22 @@ sl
 sudo
 
 #Part9
-#Permits
 #list only the files in that file
 ls -l hello.sh   
 
-
+#Part10
+#Permits
+r = read (4)
+w = write (2)
+x = execute (1)
+#Persons
+#User /Group /Others
+#Symbols
++ = add
+- = less
+#This command is for change permitions
+chmod
+#This command add execute to user in hello.sh
+chmod u+x hello.sh
+#This indicates that the “command” must be executed from the current directory.
+./hello.sh
