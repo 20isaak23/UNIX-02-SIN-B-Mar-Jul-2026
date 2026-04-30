@@ -27,3 +27,8 @@ aptitude -vv moo
 aptitude -vvv moo
 aptitude -vvvv moo
 aptitude -vvvvv moo
+
+#Part5
+#Show your actual directory
+pwd
+
