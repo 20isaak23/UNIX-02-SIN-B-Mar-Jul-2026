@@ -60,3 +60,14 @@ ls -l -s /var/log
 #The -r (reverse) option will reverse the order of any sorting type.
 ls -lsr /var/log
 #Using only the -r option with the file list in reverse alphabetical order
+
+#Part8
+#The `su` command allows you to temporarily act as a different user.
+su -
+#This command is for leave of su
+exit 
+#We configured the steam locomotive, sl command to require administrative access.
+sl
+#The sudo command allows a user to run a command as another user without having to create a new shell; it can also be used to switch to other user accounts.
+sudo
+
