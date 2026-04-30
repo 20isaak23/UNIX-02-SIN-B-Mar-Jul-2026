@@ -49,3 +49,14 @@ cd School/art
 cd ..
 #This command return to home directory or directory original 
 cd ~
+
+#Part7
+#Whit this command show a list more large and organizate 
+ls -l /var/log/
+#The -t option will sort the files by their timestamp.
+ls -lt /var/log/
+#The -S (size) option will sort the files by file size
+ls -l -s /var/log
+#The -r (reverse) option will reverse the order of any sorting type.
+ls -lsr /var/log
+#Using only the -r option with the file list in reverse alphabetical order
