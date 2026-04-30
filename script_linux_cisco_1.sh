@@ -100,3 +100,23 @@ sudo chown root hello.sh
 #Finally activate the script ./hello.sh but we have to put sudo begin 
 ./hello.sh
 
+#Parte12
+#The `cat` command will display the entire contents of the file, so it is mainly recommended for small files.
+cat
+#Show the files in the directory animals.txt
+cat animals.txt
+#This command show the files of alpha.txt
+cat alpha.txt
+#Show the firts lines of directory alpha.txt
+head alpha.txt
+#Shows the last lines of the alpha.txt directory
+tail alpha.txt
+#Shows the last lines of the alpha.txt directory
+
+#If we want to display a specific number of lines, we will use the command -n + (specific number)
+#Show the first 5 lines of alpha.txt
+head -n 5 alpha.txt
+#Show the last 5 lines of alpha.txt
+tail -n 5 alpha.txt
+
+#Part 13
