@@ -7,4 +7,9 @@ ls ~/Documents
 #This command list all the files in this directory
 ls 
 
+#Part 3
+#This command works only for draw a cow its a joke but dont they have no functionality.
+aptitude moo
+
+#Part 4
 
