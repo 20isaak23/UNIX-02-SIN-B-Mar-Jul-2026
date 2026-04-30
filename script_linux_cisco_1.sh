@@ -91,3 +91,12 @@ chmod
 chmod u+x hello.sh
 #This indicates that the “command” must be executed from the current directory.
 ./hello.sh
+
+#Part11
+#The chown command is used to change the ownership of files and directories.
+chown
+#This command change the propietary to root, also sudo acitvate the to obtain the necessary administrative privileges.
+sudo chown root hello.sh
+#Finally activate the script ./hello.sh but we have to put sudo begin 
+./hello.sh
+
