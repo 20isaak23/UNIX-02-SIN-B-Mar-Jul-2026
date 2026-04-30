@@ -12,4 +12,18 @@ ls
 aptitude moo
 
 #Part 4
-
+#ls -l: Show the list files in format more large
+ls -l
+#ls -r: show the list files but in reverse 
+ls -r
+#ls -l -r: Show the list of files in format large but in reverse 
+ls -l -r
+#ls -lr: Show the list of files in format large in reverse, but is more short the command
+ls -lr
+#If we put (-v) we say to system "Hey I want see th cow" always the system tell you diferrent 
+#results
+aptitude -v moo 
+aptitude -vv moo
+aptitude -vvv moo
+aptitude -vvvv moo
+aptitude -vvvvv moo
