@@ -120,3 +120,14 @@ head -n 5 alpha.txt
 tail -n 5 alpha.txt
 
 #Part 13
+#This command is for copy files
+cp
+
+#The `cp` command is used to copy files. Similar to the `mv` command
+#it requires at least two arguments: a source and a destination.
+
+#For example: we use etc/passwd like source and destination. (Its very important the point in the end)
+cp /etc/passwd .
+
+#Later we checked with ls
+ls
