@@ -71,3 +71,9 @@ sl
 #The sudo command allows a user to run a command as another user without having to create a new shell; it can also be used to switch to other user accounts.
 sudo
 
+#Part9
+#Permits
+#list only the files in that file
+ls -l hello.sh   
+
+
