@@ -32,3 +32,20 @@ aptitude -vvvvv moo
 #Show your actual directory
 pwd
 
+#Part6
+#This command change directory
+cd 
+#This command show thw directory documents 
+cd Documents 
+#It takes you to the highest level of the entire Linux file system.
+cd /
+#With this command, return to home directory
+cd /home/codespace
+#This command routes the document directory to school and gives art there
+cd School/art
+
+#Shortcuts
+#This command back one directory 
+cd ..
+#This command return to home directory or directory original 
+cd ~
