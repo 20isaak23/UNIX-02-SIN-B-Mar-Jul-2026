@@ -23,3 +23,9 @@ groups $USER
 id -u #User ID
 id -g #Groups ID principal 
 id -G #todos los Group IDs
+
+# La salida tiene este formato
+cat /etc/group | head -n 5
+
+
+cat /etc/gshadow | head -n 5
