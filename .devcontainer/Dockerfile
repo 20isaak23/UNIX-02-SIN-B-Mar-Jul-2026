@@ -218,7 +218,7 @@ RUN git config --system --add safe.directory '*' \
 # propia terminal integrada de VS Code, pero es buena práctica dejarla
 # definida para que la imagen sea usable también con Docker puro.
 # Prompt del curso para bash
-RUN cat >> /root/.zshrc <<'EOF'
+RUN cat >> /root/.bashrc <<'EOF'
 
 # ===== Prompt del curso =====
 __set_prompt() {
@@ -232,9 +232,11 @@ __set_prompt() {
     PS1="\[\e[36m\][Isaak-Romero]\[\e[0m\] \[\e[33m\]\W\[\e[0m\] $mark \$ "
 }
 PROMPT_COMMAND=__set_prompt
+
 EOF
-CMD ["/bin/zsh"]
-.
+
+CMD ["/bin/bash"]
+
 
 
 
