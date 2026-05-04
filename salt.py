@@ -18,3 +18,8 @@ cat /etc/group | head -10
 #¿A que grupos pertenece el usuario actual?
 groups 
 groups $USER
+
+#Ver el UID y GID of user actual
+id -u #User ID
+id -g #Groups ID principal 
+id -G #todos los Group IDs
