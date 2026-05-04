@@ -29,3 +29,10 @@ cat /etc/group | head -n 5
 
 
 cat /etc/gshadow | head -n 5
+
+#Create a direcory in my codespace home 
+mkdir ~/proyecto_unix/
+
+#List in large of project unix
+ls -la ~/proyecto_unix/
+
