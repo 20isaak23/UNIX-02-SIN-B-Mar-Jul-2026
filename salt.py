@@ -11,3 +11,10 @@ print("Salt 2:" , salt2)
 print("Hash 2:" , hash2[:50])
 print()
 print("¿Son inguales?" , hash1 == hash2)
+
+#Ver todos los grupos del sistema 
+cat /etc/group | head -10
+
+#¿A que grupos pertenece el usuario actual?
+groups 
+groups $USER
