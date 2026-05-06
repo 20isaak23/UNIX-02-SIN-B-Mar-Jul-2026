@@ -18,5 +18,9 @@ cat /etc/passwd | head -10
 #Create a simple group
 sudo groupadd desarrolladores 
 sudo groupadd -g 2000 operaciones #GID específico 
-#grupo de sistema (GID < 1000)
+#system of group (GID < 1000)
 sudo groupadd --system servicios_web
+#Verify the creation of group   
+rep "desarrolladores\|operaciones\|servicios_web" /etc/group
+#Look principals options
+groupadd --help
