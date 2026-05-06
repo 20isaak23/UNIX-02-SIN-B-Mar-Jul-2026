@@ -55,3 +55,10 @@ usermod -aG diseno root
 
 #verify 
 id root 
+
+# Add uswr a group with adduser (high level,Debian)
+sudo adduser root marketing 
+#See the actual state
+id root 
+grep root /etc/group 
+
