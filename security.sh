@@ -13,3 +13,10 @@ cat /etc/passwd | head -10
 
 #Rainbow Tables
 #Tablas precomputadas de millones de pares (contraseña -> hash) sin salt
+
+#groupadd [opciones] nombre_grupo 
+#Create a simple group
+sudo groupadd desarrolladores 
+sudo groupadd -g 2000 operaciones #GID específico 
+#grupo de sistema (GID < 1000)
+sudo groupadd --system servicios_web
