@@ -62,3 +62,16 @@ sudo adduser root marketing
 id root 
 grep root /etc/group 
 
+#Create a group tmeporal for the demo 
+sudo groupadd grupo_temporal
+sudo usermod -aG grupo_temporal root 
+id root
+#Have Group_temporal 
+
+#Now the ERROR: usermod sin -a
+
+sudo usermod -G desarrolladores root
+
+#This delete all the groups secudarys expect desarrolladores 
+
+id root #You see that lose the other groups
