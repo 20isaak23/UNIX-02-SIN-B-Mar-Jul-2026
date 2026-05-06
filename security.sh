@@ -42,3 +42,16 @@ addgroup --system cache_web
 grep "diseno\|marketing\|cache_web" /etc/group
 
 # Remember that grep is aa filter 
+groups
+id
+
+# Agred user to group with usermod (low level)
+usermod -aG desarrolladores $USER 
+usermod .aG diseno $USER
+#Here there is a problem, if we write this command an error will appear, so we change $USER
+#for root
+usermod -a -G desarrolladores root
+usermod -aG diseno root
+
+#verify 
+id root 
