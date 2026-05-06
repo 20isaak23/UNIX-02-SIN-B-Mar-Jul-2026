@@ -75,3 +75,14 @@ sudo usermod -G desarrolladores root
 #This delete all the groups secudarys expect desarrolladores 
 
 id root #You see that lose the other groups
+
+#restore
+usermod -aG diseno,marketing,grupo_temporal root
+id root #restore
+
+#prepare the practice scenario
+mkdir -p ~/lab_chgrp/{proyectos,reportes,scripts}
+touch ~/lab_chgrp/proyectos/app.py
+touch ~/lab_chgrp/proyectos/config.json 
+touch ~/lab_chgrp/reportes/inform.txt
+touch ~/lab_chgrp/scripts/deploy.s
