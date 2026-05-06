@@ -32,3 +32,13 @@ grep "GID_MIN\|GID_MAX\|SYS_GID" /etc/login.defs
 #SYS_GID_MAX = 999
 #GID_MIN = 1000
 #GID_MAX = 60000
+
+#Create groups with addgroupa
+addgroup diseno
+addgroup --gid 2100 marketing
+addgroup --system cache_web
+
+#Verify
+grep "diseno\|marketing\|cache_web" /etc/group
+
+# Remember that grep is aa filter 
