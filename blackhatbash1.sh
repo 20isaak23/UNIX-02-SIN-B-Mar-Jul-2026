@@ -11,7 +11,9 @@ df --human-readable
 df -h
 bash blackhatbash1.sh
 # Run the script blackhatbash1.sh.
+
 bash -r blackhatbash1.sh
 # Run Bash in restricted mode to limit certain operations.
 
 bash -n blackhatbash1.sh
+# Check the script syntax without running it.
