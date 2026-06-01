@@ -1,0 +1,14 @@
+#! /bin/bash 
+PUBLISHER="No Starch Press" #This is a global variable, usable anywhere in the script.
+
+print_name(){
+    local name #It's local variable, only usable in this function.
+    name="Black Hat Bash" 
+    echo "${name} by ${PUBLISHER}"
+}
+
+print_name #Call the function to print the book name and publisher.
+
+echo "Variable ${name} will not be printed because it is a local variable."
+
+
