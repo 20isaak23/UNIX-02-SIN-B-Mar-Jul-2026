@@ -9,3 +9,8 @@ ps -e -f
 ps -ef
 df --human-readable
 df -h
+bash blackhatbash1.sh
+# Run the script blackhatbash1.sh.
+bash -r blackhatbash1.sh
+
+bash -n blackhatbash1.sh
