@@ -8,3 +8,13 @@ echo "${IP_ADDRESSES[*]}"
 # Prints only the first element in the array 
 echo "${IP_ADDRESSES[0]}"
 
+# Delete de IP in the second position of the array
+unset IP_ADDRESSES[1] 
+
+#Print the array again to see the change
+echo "${IP_ADDRESSES[*]}"
+
+
+
+
+
