@@ -12,3 +12,6 @@ echo "The total number of arguments is: $#"
 for args in "$@"; do
 echo "${args}"
 done
+
+# Later we have to make this command
+#bash -x ping_with_arguments.sh 127.0.0.1 127.0.0.1 127.0.0.1
