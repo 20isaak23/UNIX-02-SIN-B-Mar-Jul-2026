@@ -276,7 +276,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 
 # ----------------------------------------------------------------------------
-# BLOCK H — SHELL: switch the build shell from sh to bash
+# BLOCK H — SHELL: switch the build shell from /bin/sh to /bin/bash
 # ----------------------------------------------------------------------------
 # By default Docker executes RUN commands with /bin/sh -c.
 # /bin/sh is a minimal POSIX shell that lacks many bash features:
