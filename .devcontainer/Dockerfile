@@ -260,7 +260,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
  && sed -i 's/# es_ES.UTF-8/es_ES.UTF-8/' /etc/locale.gen \
  && locale-gen \
  \
-    # --- BLOCK G: Clean up apt cache — same RUN, same layer ---
+    # --- BLOCK G  — Clean up apt cache in the same RUN layer to reduce image size
     # apt stores downloaded .deb package files in /var/cache/apt/archives
     # and keeps the package-index files under /var/lib/apt/lists/.
     # After installation these are no longer needed.
