@@ -335,7 +335,7 @@ RUN git config --system --add safe.directory '*' \
 
 
 # ----------------------------------------------------------------------------
-# BLOCK K — Change the default shell for root to zsh
+# BLOCK K — Change the default login shell for root to /usr/bin/zsh
 # ----------------------------------------------------------------------------
 # chsh (change shell) updates the entry in /etc/passwd for the specified
 # user to use a different login shell. Here we point root's shell to
