@@ -250,7 +250,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     # interact with web APIs. (BHB Ch. 1 — working with HTTP from the CLI)
     httpie \
     \
-    # --- BLOCK F: Enable the Spanish locale ---
+    # --- BLOCK F - Enable the Spanish UTF-8 locale with sed and locale-gen ---
     # /etc/locale.gen lists every available locale, but most are commented
     # out (prefixed with "# "). The sed command removes the comment marker
     # from the "es_ES.UTF-8" line, telling locale-gen to compile that locale.
