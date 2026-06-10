@@ -21,7 +21,7 @@
 
 
 # ----------------------------------------------------------------------------
-# BLOCK A — FROM: the base image
+# BLOCK A — FROM: the base image (kalilinux/kali-rolling:latest) 
 # ----------------------------------------------------------------------------
 # "FROM" tells Docker which pre-built image to use as the starting point.
 # Instead of building a full OS from scratch, we stack our customizations
