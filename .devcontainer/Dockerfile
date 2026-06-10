@@ -75,7 +75,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
 
 
 # ----------------------------------------------------------------------------
-# BLOCK D — Pre-answering Wireshark's interactive prompt
+# BLOCK D — Pre-answering Wireshark's interactive debconf prompt
 # ----------------------------------------------------------------------------
 # Some packages ask configuration questions during installation.
 # Wireshark/tshark asks: "Should non-superusers be able to capture packets?"
