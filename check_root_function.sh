@@ -12,3 +12,6 @@ if check_if_root; then
 else
  echo "User is not root!"
 fi
+
+#Create a new user "boo" with useradd 
+#later comprobate with su -"boo" and whoami
