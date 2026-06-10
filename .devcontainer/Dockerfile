@@ -91,7 +91,7 @@ RUN echo "wireshark-common wireshark-common/install-setuid boolean false" \
 
 
 # ----------------------------------------------------------------------------
-# BLOCK E — The main RUN: update + install all course tools
+# BLOCK E — The main RUN: apt-get update + install all course tools
 # ----------------------------------------------------------------------------
 # Why one big RUN instead of many small ones?
 # Each RUN instruction creates a new layer. If we ran apt-get install
