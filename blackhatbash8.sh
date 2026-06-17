@@ -38,3 +38,11 @@ fg %1
 
 bg %1
 #[1]+ sleep 100 &
+
+nohup ./my_script.sh &
+
+chmod 777 Exercise2.sh
+
+nohup ./Exercise2.sh &
+
+
